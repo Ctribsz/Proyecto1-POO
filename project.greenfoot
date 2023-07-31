@@ -1,7 +1,7 @@
 #Greenfoot project file
 class.Monstruo.image=DALL\u00B7E\ 2023-07-30\ 01.47.49\ -\ the\ head\ of\ quetzalcoatl\ in\ 8\ bit\ style\ hyper\ detailed\ (1)-PhotoRoom.png-PhotoRoom.png
 class.Personaje.image=DALL\u00B7E\ 2023-07-25\ 18.02.46\ -\ an\ explorer\ in\ 8bit\ style\ (1)-PhotoRoom.png-PhotoRoom.png
-class.Plataforma.image=DALL\u00B7E\ 2023-07-30\ 02.18.27\ -\ a\ cloud\ in\ shape\ of\ a\ rectangle\ in\ 8bit\ style\ (1)-PhotoRoom.png-PhotoRoom.png
+class.Plataforma.image=DALL\u00B7E\ 2023-07-30\ 02.18.27\ -\ a\ cloud\ in\ shape\ of\ a\ rectangle\ in\ 8bit\ style\ (1)-PhotoRoom.png-PhotoRoom\ (1).png
 class.Sky.image=DALL\u00B7E\ 2023-07-30\ 01.37.03\ -\ sky\ with\ clouds\ in\ 8\ bit\ styke.png
 dependency1.from=Personaje
 dependency1.to=Plataforma
