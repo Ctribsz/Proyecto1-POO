@@ -1,12 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.List;
 public class Personaje extends Actor {
-    private final int velocidad = 10;
+    private final int velocidad = 3;
     private final int fuerzaSalto = 20;
     private int velocidadVertical = 0;
     private final int gravedad = 1;
 
     public void act() {
+        if (isTouching(Sup.class)) {
+            Greenfoot.setWorld(new castle());
+        }
         // Movimiento horizontal
         if (Greenfoot.isKeyDown("left")) {
             setLocation(getX() - velocidad, getY());
