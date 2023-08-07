@@ -20,7 +20,7 @@ public class Lava extends World
     private Plataforma plat4;
     private Sup3 nivel;
     private Reinicio reset;
-    
+    private Monstruo mon;
     public Lava()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
@@ -36,6 +36,7 @@ public class Lava extends World
         plat4 = new Plataforma();
         nivel = new Sup3();
         reset = new Reinicio();
+        mon = new Monstruo();
         
         addObject(diego,100,600);
         //Plataformas
@@ -46,7 +47,8 @@ public class Lava extends World
         addObject(plat4,590,300);
         addObject(nivel,680,100);
         addObject(reset,50, 900);
-
+        addObject(mon,400, 900);
+        
         addObject(score, 200, 90);
         addObject(level, 200, 60);
     }
