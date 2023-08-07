@@ -22,7 +22,7 @@ public class Sky extends World
     private Plataforma plat2;
     private Plataforma plat3;
     private Plataforma plat4;
-    
+    private Reinicio reset;
     private Sup nivel;
     
     public Sky()
@@ -30,8 +30,8 @@ public class Sky extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 800, 1); 
         
-        score = new counter("Score: " );
-        level = new counter("Level: " );
+        score = new counter("Score: 1" );
+        level = new counter("Level: 1" );
         diego = new Personaje();
         plat = new Plataforma();
         plat1 = new Plataforma();
@@ -39,6 +39,7 @@ public class Sky extends World
         plat3 = new Plataforma();
         plat4 = new Plataforma();
         nivel = new Sup();
+        reset = new Reinicio();
         
         addObject(diego,100,600);
         //Plataformas
@@ -47,7 +48,8 @@ public class Sky extends World
         addObject(plat2,300,500);
         addObject(plat3,400,400);
         addObject(plat4,500,300);
-        addObject(nivel,500,250);
+        addObject(nivel,500,100);
+        addObject(reset, 100, 800);
 
         addObject(score, 140, 90);
         addObject(level, 140, 60);
